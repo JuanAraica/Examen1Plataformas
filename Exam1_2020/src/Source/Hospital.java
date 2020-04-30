@@ -1,9 +1,23 @@
 package Source;
 
-public class Hospital {
+public enum Hospital
+{
+	Nicoya("Hospital de Nicoya"), 
+	Mexico("Hospital México") ; 
+	
+	private String nombre;
 
-	public Hospital() {
-		// TODO Auto-generated constructor stub
+
+	Hospital(String nombre ){
+		this.nombre = nombre ;
 	}
 
+	public String getNombre() {
+		return nombre;
+	}
+     public enum retornarTipo() {
+	
+}
+
+	
 }

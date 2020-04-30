@@ -14,9 +14,10 @@ public abstract class OMS {
 		return false;
 		
 	}
-	
-	 
 	 public   void  diagnosticar(){
+
+		}
+	 public final  void imprimirReporte(){
 
 		}
 

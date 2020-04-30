@@ -3,11 +3,7 @@
  */
 package Source;
 
-/**
- * @author Aray
- *
- */
-public class HospitalMexico {
+public class HospitalMexico  {
 
 	/**
 	 * 
