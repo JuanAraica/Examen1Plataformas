@@ -1,10 +1,12 @@
 package Source;
 
 public  class Paciente {
-	private static String  nombre ;
-	private static int edad ;
+	private  static String nombre  ;
+	private static   int edad ;
 	private static int temperatura ; 
-	private static boolean vomito ;
+	private static boolean vomito ;//
+	
+	
 	public Paciente() {
 		Paciente.vomito = false;
 		Paciente.nombre = "";
