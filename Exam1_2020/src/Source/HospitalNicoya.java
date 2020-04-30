@@ -1,9 +1,21 @@
 package Source;
 
-public class HospitalNicoya {
+public class HospitalNicoya extends OMS{
 
 	public HospitalNicoya() {
-		// TODO Auto-generated constructor stub
+ 
+	}
+
+	@Override
+	protected boolean isGamHospital() {
+ 
+		return false;
+	}
+
+	@Override
+	public Hospital getNombreHospital() {
+ 
+		return null;
 	}
 
 }
